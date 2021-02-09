@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Why you should join Jr. SCLA</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<div class="jumbotron text-center">
+  <h1>Join Jr. SCLA</h1>
+
+
+
+
+<!-- sign up function -->
+
+  <h4> Sign up here</h4>
+<!-- displays text boxes -->
+  <input type="text" id="txt" name="txt" onclick="this.value=''"/>
+
+  <button onclick="getAndSetVal();"> Sign Up </button>
+<!-- displays output box -->
+  <input type="text" id="txt-2" name="txt" onclick="this.value=''"/>
+
+  <script>
+//input
+    // document.getElementById('txt').value = "First and Last name here";
+  document.getElementsByTagName('input')[0].value = "First and Last name here"
+    function getAndSetVal(){
+      var txt1 = document.getElementById('txt').value
+      document.getElementById('txt-2').value = txt1;
+    }
+
+
+// Get your input throught output
+    function getVA(){
+    var txt = document.getElementById('txt').value; 
+    alert(txt);
+    }
+
+
+
+  </script>
+
+</div>
+  
+
+<!-- columns -->
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Why you should join?</h3>
+      <p>Why, because you'll be able to go through this program and experince the way it feel sliek to code, and it will push you to your limits.</p>
+      <p> When, well it will start at March 31st. </p>
+      <p>It will take place online in the safty of your homes</p>
+    </div>
+
+    <div class="col-sm-4">
+      <h3>The experience</h3>
+      <p></p>
+      <p></p>
+    </div>
+
+    <div class="col-sm-4">
+        <h3>Conclusion</h3>        
+        <p></p>
+        <p></p>
+      </div>
+    </div>
+  </div>
+  
+  </body>
+  </html>
